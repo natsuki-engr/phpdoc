@@ -1,7 +1,7 @@
 PHD_REPO=https://github.com/php/phd.git
 DOC_BASE_REPO=https://github.com/php/doc-base.git
 DOC_EN_REPO=https://github.com/php/doc-en.git
-DOC_JA_REPO=https://github.com/php/doc-ja.git
+DOC_JA_REPO=https://github.com/natsuki-engr/php-doc-ja.git
 OUTPUT_DIR=output/php-chunked-xhtml
 
 setup:
