@@ -30,6 +30,13 @@ setup:
 		echo "doc-ja already cloned."; \
 	fi
 
+destroy:
+	@echo "Removing phd, doc-base, en, and ja directories..."
+	rm -rf phd doc-base en ja
+	@echo "Removing output directory..."
+	rm -rf $(OUTPUT_DIR)
+	@echo "Cleanup complete."
+
 build:
 	php doc-base/configure.php --with-lang=ja
 
